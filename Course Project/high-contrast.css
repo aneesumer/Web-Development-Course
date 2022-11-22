@@ -1,0 +1,458 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+    font-size: 120%;
+}
+
+p {
+    text-align: justify;
+}
+
+p,
+th,
+td,
+form,
+a,
+button,
+textarea,
+input,
+figcaption {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#activate-high-contrast {
+    display: none;
+}
+
+
+/* HOME */
+
+div#toplogo {
+    padding: 2%;
+}
+
+img#logo {
+    width: 15%;
+    height: 15%;
+}
+
+nav.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav.topnav a {
+    color: yellow;
+    font-weight: bold;
+    font-size: 110%;
+    padding: 1% 2.5%;
+    text-decoration: none;
+    float: left;
+}
+
+nav.topnav a:hover {
+    background: yellow;
+    color: #000;
+    font-weight: bold;
+}
+
+nav.topnav a.active {
+    background-color: rgba(56, 182, 255, 255);
+    color: white;
+}
+
+img#mainimage {
+    width: 100%;
+    height: 30%;
+    padding-top: 3%;
+}
+
+h2#textoverlay {
+    text-align: center;
+    font-size: 200%;
+    color: white;
+}
+
+.skip {
+    display: none;
+}
+
+section#textover {
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+
+h1#mainhead {
+    padding-top: 2%;
+    text-align: center;
+}
+
+p#maintext {
+    text-align: center;
+}
+
+a.mainbutton {
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: hidden;
+    background-color: rgba(56, 182, 255, 255);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 15%;
+}
+
+.button {
+    overflow: hidden;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: hidden;
+    background-color: rgba(56, 182, 255, 255);
+    color: white;
+}
+
+a.link:visited {
+    background: #fff;
+    color: yellow;
+    font-weight: bold;
+}
+
+div#image2 {
+    float: left;
+}
+
+img#image1 {
+    float: left;
+    padding-right: 5%;
+    margin: 4px;
+    width: 40%;
+    height: 40%;
+}
+
+img#image2 {
+    float: right;
+    margin: 4px;
+    padding-left: 4%;
+    width: 40%;
+    height: 60%;
+}
+
+div#text1 {
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+div#text2 {
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+.icon {
+    padding-left: 9%;
+    padding-right: 9%;
+    width: 15%;
+    height: 15%;
+}
+
+.icontext {
+    display: inline-block;
+    padding-left: 8.5%;
+    padding-right: 5%;
+}
+
+section.homesection {
+    padding-top: 4%;
+}
+
+footer {
+    padding: 3%;
+    border: 2px solid white;
+    height: 10%;
+}
+
+img#footerlogo {
+    float: left;
+    padding-right: 2%;
+    width: 15%;
+    height: 15%;
+}
+
+div#bottom {
+    padding-bottom: 5%;
+}
+
+
+/* MY APPLICATION */
+
+video#video {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+fieldset#hidden {
+    border: hidden;
+    text-align: center;
+}
+
+input.bordered {
+    border: 1px double white;
+    padding: 10px;
+}
+
+label {
+    color: white;
+    font-size: 120%;
+}
+
+div.padding {
+    padding: 1.5%;
+    display: inline-block;
+}
+
+div.padding2 {
+    padding: 1.3%;
+    display: inline-block;
+}
+
+div.padding3 {
+    padding-left: 25%;
+    display: inline-block;
+}
+
+div#padding4 {
+    padding-left: 2.5%;
+}
+
+.field {
+    width: 75%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: white;
+}
+
+.button2 {
+    overflow: hidden;
+    text-decoration: none;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border: hidden;
+    background-color: rgba(56, 182, 255, 255);
+    color: white;
+    border-radius: 6px;
+    font-size: larger;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: rgb(154, 196, 212);
+}
+
+.button2:active {
+    background-color: rgb(154, 196, 212);
+    transform: translateY(4px);
+}
+
+div#buttonstyle {
+    text-align: center;
+}
+
+
+/*SUCCESS STORIES PAGE */
+
+img.person {
+    float: left;
+    height: 25%;
+    width: 25%;
+}
+
+p.persontext {
+    padding-left: 30%;
+    padding-right: 5%;
+}
+
+div.stories {
+    width: 100%;
+    padding-bottom: 25%;
+    padding-top: 5%;
+    padding-left: 3%;
+    border: solid white;
+}
+
+
+/* ABOUT US PAGE */
+
+.heading {
+    text-align: center;
+}
+
+img#aboutUsLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+aside#text {
+    text-align: center;
+    font-size: large;
+}
+
+table#tab {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#tab th,
+#tab td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 2%;
+}
+
+#tab th {
+    background-color: rgba(56, 182, 255, 255);
+    color: white;
+}
+
+#tab tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tab tr:hover {
+    background-color: #ddd;
+}
+
+img#image5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+/* LARGE DESKTOP 
+
+img#image1 {
+    grid-area: image1;
+}
+
+div#text1 {
+    grid-area: text1;
+}
+
+section.homesection {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-template-areas: 'image1 text1';
+}
+
+
+/* TABLET 
+
+@media screen and (max-width: 992px) {
+    section.homesection {
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        grid-template-areas: 'image1' 'text1';
+    }
+}
+
+
+/* PHONE 
+
+@media screen and (max-width: 576px) {
+    section.homesection {
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        grid-template-areas: 'image1' 'text1';
+    }
+}
+*/
+
+
+/* LARGE DESKTOP 
+
+img#icon1 {
+    grid-area: icon1;
+}
+
+img#icon2 {
+    grid-area: icon2;
+}
+
+img#icon3 {
+    grid-area: icon3;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-areas: 'icon1 icon2 icon3';
+}
+
+
+/* DESKTOP 
+
+@media screen and (max-width:1200px) {
+    aside {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-areas: 'icon1 icon2 icon3';
+    }
+}
+
+
+/* TABLET 
+
+@media screen and (max-width:992px) {
+    aside {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 'icon1' 'icon2' 'icon3';
+    }
+}
+
+
+/* PHONE 
+
+@media screen and (max-width:576px) {
+    aside {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 'icon1' 'icon2' 'icon3';
+    }
+}
+*/

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/normal.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="lightbox/dist/css/lightbox.css" rel="stylesheet">
+    <title>My Application</title>
+    <style>
+        form {
+            background-image: url('media/background5.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            padding-bottom: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="toplogo"><img id="logo" src="media/logo.png" alt="Header Logo"></div>
+
+        <nav class="topnav">
+            <a href="index.html"> Home </a>
+            <a class="active" href="myapplication.html"> My Application </a>
+            <a href="successstories.html"> Success Stories </a>
+            <a href="aboutus.html"> About Us </a>
+            <a href="" id="activate-high-contrast"><img src="css/high-contrast.svg" alt="high contrast icon" height="20"></a>
+            <a href="" id="activate-normal">Back to normal view</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="heading"> Welcome to Your Application Portal</h1>
+        <p> Here we provide a complete guide to our dear users for completing their resume. Filling out a <em>resume</em> is the most important part of the job hiring process. We value this part and you are lucky to choose us as we are providing a complete
+            guideline to you for filling your resume and CV letter. Have a look on the video tutorial below. <a class="link" href="https://www.nijobfinder.co.uk/c/career-advice/cvs-and-applications/how-to-write-a-cv-the-complete-guide/">Learn More Filling Resume </a></p>
+
+        <br>
+
+        <figure>
+            <video id="video" controls="controls" poster="media/poster.png">
+                <source src="media/Video1.mp4" type="video/mp4">
+    
+            </video>
+            <br>
+            <figcaption> Here is the complete audio script of the video: <a class="link" href="videoscript.html">Audio Scrip</a></figcaption>
+        </figure>
+
+        <h1 class="heading"> Application Form</h1>
+
+        <form action="mailto:aneesumar72@gmail.com" method="POST" enctype="text/plain">
+
+            <fieldset id="hidden">
+
+                <div class="padding">
+                    <label for="firstname">
+                     <strong>First name</strong>
+                    </label> <br> <br>
+                    <input class="bordered" type="text" name="First Name" placeholder="First Name" id="firstname" size="30" maxlength="100">
+                </div>
+
+                <div class="padding">
+                    <label for="lastname">
+                         <strong>Last name</strong>
+                    </label> <br> <br>
+                    <input class="bordered" type="text" name="Last Name" placeholder="Last Name" id="lastname" size="30" maxlength="100">
+                </div>
+
+                <br>
+
+                <div class="padding">
+                    <label for="email">
+                         <strong>Email</strong> 
+                    </label> <br> <br>
+                    <input class="bordered" type="email" name="Email" placeholder="xyz@gmail.com" id="email" size="40" maxlength="100">
+                </div>
+
+                <div class="padding">
+                    <label for="industry">
+                      <strong>  Industry </strong>
+                    </label> <br> <br>
+                    <input class="bordered" type="text" name="Industry" placeholder="Your Industry" id="industry" size="40" maxlength="100">
+                </div>
+
+            </fieldset>
+
+            <fieldset class="field">
+                <p> Your Age Range:</p>
+
+                <div id="padding4">
+                    <input type="radio" name="agerange" value="18-20" id="rb1"> <label for="rb1">18 - 20</label> <br>
+                    <input type="radio" name="agerange" value="20-40" id="rb2"> <label for="rb2">20 - 40</label> <br>
+                    <input type="radio" name="agerange" value="40-60" id="rb3"> <label for="rb3">40 - 60</label> <br>
+                </div>
+
+            </fieldset>
+
+            <fieldset class="field">
+
+                <p>How much far can you go for Work:</p>
+                <div class="padding2"> <input type="checkbox" name="Distance" value="20Km" id="checkbox1"> <label for="checkbox1">Within 20 KM</label>
+                </div>
+                <div class="padding3"><input type="checkbox" name="Distance" value="40Km" id="checkbox2"> <label for="checkbox2">Within 40 KM</label>
+                </div>
+                <br>
+                <div class="padding2"><input type="checkbox" name="Distance" value="60Km" id="checkbox3"> <label for="checkbox3">Within 60 KM</label>
+                </div>
+                <div class="padding3"><input type="checkbox" name="Distance" value="80Km" id="checkbox4"> <label for="checkbox4">Within 80 KM</label>
+                </div>
+
+            </fieldset>
+
+            <fieldset class="field">
+
+                <textarea name="Description" id="discription" cols="110" rows="10" placeholder="Write about yourself, your interests and your preferences......."></textarea>
+            </fieldset>
+
+            <div id="buttonstyle">
+                <input class="button2" type="reset" value="Reset">
+                <input class="button2" type="submit" value="Submit">
+            </div>
+
+        </form>
+
+        <br>
+
+    </main>
+
+    <footer>
+        <img id="footerlogo" src="media/logo.png" alt="footerlogo">
+        <div id="bottom">
+            <nav class="topnav">
+                <a href="index.html"> Home </a>
+                <a class="active" href="myapplication.html"> My Application </a>
+                <a href="successstories.html"> Success Stories </a>
+                <a href="aboutus.html"> About Us </a>
+            </nav>
+            <p> Job Seeker is a Platform working across the Globe for providing jobs for people from all over the world. Our platform is strictly dedicated to provide opportunities for the people looking for jobs and get tired of it.</p>
+        </div>
+    </footer>
+
+    <script src="css/css-switch.js"></script>
+    <script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
+
+</body>
+
+</html>
